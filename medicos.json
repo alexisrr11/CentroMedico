@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "nombre": "Dra. Laura Fernández",
+    "especialidad": "Pediatría",
+    "matricula": "MP12345",
+    "telefono": "1167891234",
+    "email": "laura.fernandez@clinicamedica.com",
+    "consultorio": "Consultorio 1"
+  },
+  {
+    "id": 2,
+    "nombre": "Dr. Martín Gómez",
+    "especialidad": "Cardiología",
+    "matricula": "MP23456",
+    "telefono": "1176543210",
+    "email": "martin.gomez@clinicamedica.com",
+    "consultorio": "Consultorio 3"
+  },
+  {
+    "id": 3,
+    "nombre": "Dra. Paula Ríos",
+    "especialidad": "Ginecología",
+    "matricula": "MP34567",
+    "telefono": "1154321987",
+    "email": "paula.rios@clinicamedica.com",
+    "consultorio": "Consultorio 2"
+  },
+  {
+    "id": 4,
+    "nombre": "Dra. Silvina López",
+    "especialidad": "Pediatría",
+    "matricula": "MP43120",
+    "telefono": "1143216789",
+    "email": "Silvina.lopez@clinicamedica.com",
+    "consultorio": "Consultorio 4"
+  },
+  {
+    "id": 5,
+    "nombre": "Dra. María Fernández",
+    "especialidad": "Médica Clínica",
+    "matricula": "MP12345",
+    "telefono": "1145678910",
+    "email": "maria.fernandez@pediatria.com",
+    "consultorio": "Consultorio 1"
+  },
+  {
+    "id": 6,
+    "nombre": "Dr. Carlos Gómez",
+    "especialidad": "Cardiología",
+    "matricula": "MP23456",
+    "telefono": "1134567890",
+    "email": "carlos.gomez@cardiologia.com",
+    "consultorio": "Consultorio 2"
+  },
+  {
+    "id": 7,
+    "nombre": "Dra. Laura Martínez",
+    "especialidad": "Dermatología",
+    "matricula": "MP34567",
+    "telefono": "1123456789",
+    "email": "laura.martinez@dermatologia.com",
+    "consultorio": "Consultorio 3"
+  },
+  {
+    "id": 8,
+    "nombre": "Dr. Javier López",
+    "especialidad": "Médico Clínico",
+    "matricula": "MP45678",
+    "telefono": "1143216789",
+    "email": "javier.lopez@clinicamedica.com",
+    "consultorio": "Consultorio 4"
+  },
+  {
+    "id": 9,
+    "nombre": "Dra. Verónica Ruiz",
+    "especialidad": "Ginecología",
+    "matricula": "MP56789",
+    "telefono": "1167891234",
+    "email": "veronica.ruiz@ginecologia.com",
+    "consultorio": "Consultorio 5"
+  }
+]
