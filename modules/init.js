@@ -8,10 +8,24 @@ export async function initApp() {
   const contenedorMedicos = document.querySelector("#contenedor-medicos");
 
   if (toggleButton && sidebar) {
-    toggleButton.addEventListener('click', () => {
-      sidebar.classList.toggle('-translate-x-full');
-    });
-  }
+  // Al hacer clic en el botón, alterna el sidebar
+  toggleButton.addEventListener('click', (e) => {
+    e.stopPropagation(); // Evita que el clic se propague al body
+    sidebar.classList.toggle('-translate-x-full');
+  });
+
+  // Al hacer clic dentro del sidebar, no se propaga el evento al body
+  sidebar.addEventListener('click', (e) => {
+    e.stopPropagation();
+  });
+
+  // Si hacés clic en cualquier parte del documento
+  document.addEventListener('click', () => {
+    if (!sidebar.classList.contains('-translate-x-full')) {
+      sidebar.classList.add('-translate-x-full'); // Lo cerramos
+    }
+  });
+}
 
   for (const url of urls) {
     try {
