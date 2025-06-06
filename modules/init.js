@@ -1,7 +1,7 @@
 import { leerData } from "./leerData.js";
 
 export async function initApp() {
-  const urls = ["../pacientes.json", "../medicos.json"];
+  const urls = ["https://raw.githubusercontent.com/alexisrr11/CentroMedico/refs/heads/main/pacientes.json", "https://raw.githubusercontent.com/alexisrr11/CentroMedico/refs/heads/main/medicos.json"];
   const sidebar = document.getElementById('sidebar');
   const toggleButton = document.getElementById('toggleSidebar');
   const contenedorFetch = document.querySelector(".contenedorJson");
